@@ -18,6 +18,10 @@ After installing widget plugins, site administrator needs to enable widgets by g
 ## Installing via git
 From moodle root 
 
+```bash
+git submodule add -b main https://github.com/AdrianoRuseler/moodle-local_accessibility.git local/accessibility
+```
+
 git  clone git@github.com:ponlawat-w/moodle-local_accessibility.git  local/accessibility
 
 `cd local/accessibility`
