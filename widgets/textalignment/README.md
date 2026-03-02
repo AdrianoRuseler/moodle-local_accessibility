@@ -1,11 +1,8 @@
-# Accessibility #
+# Text Alignment Accessibility Widget #
 
-Accessibility plugin
+Requires [local_accessiblity](https://github.com/ponlawat-w/moodle-local_accessibility) to be installed and enabled.
 
-This plugin requires subplugins (widgets) to be installed separatedly inside directory `widgets` of this plugin.
-After installing widget plugins, site administrator needs to enable widgets by going to _Site Administration > Plugins > Accessibility Widgets > Manage Enabled Widgets_.
-
-[Instructions to develop a widget plugin](./widgets/README.md)
+This plugin allows user to customise their font face family in a Moodle site.
 
 ## Installing via uploaded ZIP file ##
 
@@ -15,25 +12,11 @@ After installing widget plugins, site administrator needs to enable widgets by g
    extra details if your plugin type is not automatically detected.
 3. Check the plugin validation report and finish the installation.
 
-## Installing via git
-From moodle root 
-
-git  clone git@github.com:ponlawat-w/moodle-local_accessibility.git  local/accessibility
-
-`cd local/accessibility`
-
-At this point the plugin will be installed but without any widgets. To add the widgets you can check out by tag as follows.
-Tags can be found at https://github.com/ponlawat-w/moodle-local_accessibility/tags. Select the one you want and checkout as follows
-
-`git checkout v1.0.1-with-widgets`
-
-This will result in a warning about being in 'detached HEAD' state that will not affect testing
-
 ## Installing manually ##
 
 The plugin can be also installed by putting the contents of this directory to
 
-    {your/moodle/dirroot}/local/accessibility
+    {your/moodle/dirroot}/local/accessibility/widgets
 
 Afterwards, log in to your Moodle site as an admin and go to _Site administration >
 Notifications_ to complete the installation.
@@ -46,7 +29,7 @@ to complete the installation from the command line.
 
 ## License ##
 
-2023 Ponlawat Weerapanpisit <ponlawat_w@outlook.co.th>
+2025 Ponlawat Weerapanpisit <ponlawat_w@outlook.co.th>
 
 This program is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
